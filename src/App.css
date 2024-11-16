@@ -1,0 +1,123 @@
+*{margin:0;box-sizing: border-box;}
+
+
+.App{width:80%;height:60vh;background-color: orange;position:relative;margin-top: 20vh;margin-left: 20vh;
+position: relative; }
+
+.Search{width:100%;height:60vh;background-color: orange;position:absolute;z-index: 4;}
+.Search h1{position: absolute; top:5px;left:35%;font-family: serif;font-variant: small-caps; font-size: 40px;}
+.Search button{width:150px;height:50px;background-color: greenyellow; color:blue;font-size: 20px; border-radius: 5px; border:0px solid greenyellow;
+position: absolute; right: 10px;bottom:10px;;
+}
+
+.Search #ok{width:150px;height:50px;background-color: greenyellow; color:blue;font-size: 20px; border-radius: 5px; border:0px solid greenyellow;
+left:10px;bottom: 50px;
+}
+
+
+.Search .from{
+    width:40%;
+    height:50px;
+    position: absolute;
+    top:20vh;
+    left:10px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.from input{width:100%;height:50px;border:0px solid transparent;font-size: 25px;padding-left: 20px;border-radius: 5px;}
+.Search .to {
+     width:40%;
+    height:50px;
+    position: absolute;
+    top:20vh;
+    right:10px;
+    background-color: aqua;
+    border-radius: 5px;
+  
+  }
+  .to input{width:100%;height:50px;border:0px solid transparent;font-size: 25px;padding-left: 20px;border-radius: 5px;}
+
+  .Search .date{
+    width:40%;
+    height:50px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 100px;
+    left:30%;
+    border-radius: 5px;
+
+  }
+  .date input{width:100%;height:50px;border:0px solid transparent;font-size: 25px;padding-left: 20px;border-radius: 5px;}
+
+  /***************************************************************************** */
+.Avilable-train{width:100%;height:60vh;background-color:tomato;position:absolute;top:0px;z-index:3;}
+.Avilable-train h1{position: absolute; top:5px;left:35%;font-family: serif;font-variant: small-caps; font-size: 40px;}
+
+.Avilable-train .row{width:100%;
+height:50px;
+background-color: aliceblue;
+border: 1px solid tomato;
+}
+
+.Avilable-train .row .col{
+  width:25%;
+  height: 50px;
+  /* background-color: cornflowerblue; */
+  float:left;
+  border:1px solid tomato;
+  text-align: center;
+
+}
+.Avilable-train .row .colbig{
+  width: 50%;
+  height:50px;
+  /* background-color: cornflowerblue; */
+  float: left;
+}
+
+.Prow1{height:50px;width:100%;background-color:red;}
+
+.Avilable-train .row:hover{
+  
+  transform: scale(1.1);
+  transition: all  .1s linear;
+}
+
+.Avilable-train button{width:100px;height:40px;background-color: greenyellow; color:blue ;border-radius: 5px; font-size: 20px;float: right;border:solid transparent;}
+/* ********************************************************************** */
+.select{width:100%;height:60vh;background-color:yellowgreen;position:absolute;top:0px;z-index:2;}
+.select h1{position: absolute; top:5px;left:35%;font-family: serif;font-variant: small-caps; font-size: 40px;}
+.select .r1 .genral{width: 100px;height: 100px; font-size:30px;padding-top: 20px; text-align: center;float: left; margin-left: 1vh;}
+.select .r2 .ac1{width: 100px;height: 100px; font-size:30px;padding-top: 20px; text-align: center;float: left; margin-left: 1vh;}
+.select .r3 .ac2{width: 100px;height: 100px; font-size:30px;padding-top: 20px; text-align: center;float: left; margin-left: 1vh;}
+.select .r4 .ac3{width: 100px;height: 100px; font-size:30px;padding-top: 20px; text-align: center;float: left; margin-left: 1vh;}
+.select .r5 .ac4{width: 100px;height: 100px; font-size:30px;padding-top: 20px; text-align: center;float: left; margin-left: 1vh;}
+
+.select button{width:80px;height: 40px; background-color: blue;color:greenyellow; font-size: 20px; border-radius: 5px; border: solid transparent;margin-top: 50vh;}
+.select .CROW{width:100px;height:100px;float: left;margin-left: 1vh; background-color: aqua; margin-top: 20vh;}
+.select .CROW:hover{
+  transform: scale(1.1);
+  transform-origin: 1.1s;
+  
+
+}
+
+
+/* *******************************  YOUR  TICKET  ******************************/
+
+.Ticket{width:100%;height:60vh;background-color:rgb(181, 132, 228);position:absolute;top:0px;z-index:1;}
+.Ticket h1{position: absolute; top:5px;left:40%;font-family: serif;font-variant: small-caps; font-size: 40px;}
+.Ticket .card{width:60%;height: 250px; background-color: antiquewhite; position: absolute;
+top:10vh;left:30vh;border-radius: 5px;
+}
+.Ticket .card .desti{width:48%;height:40px;background-color:antiquewhite;position: absolute; z-index:2; text-align: center;border-radius: 5px 5px 0px 0px;}
+.Ticket .card .date{width:48%;height:40px;background-color:antiquewhite;position: absolute;right: 0px;z-index:2; text-align: center;border-radius: 5px 5px 0px 0px;}
+.Ticket .Train_no {width:48%;height:30px;background-color:antiquewhite;float:left;margin-top: 4vh;text-align: center;}
+.Ticket .Train_name {width:48%;height:30px;background-color:antiquewhite;float:left;margin-top: 4vh;margin-left:4%;text-align: center;}
+.Ticket .Train_time {width:48%;height:30px;background-color:antiquewhite;float:left;margin-top: 4vh;text-align: center;}
+.Ticket .Train_price {width:48%;height:30px;background-color:antiquewhite;float:left;margin-top: 4vh;margin-left:4%;text-align: center;}
+
+.Ticket button {width:100px;height:40px;background-color: greenyellow; color:black;border-radius: 5px; font-size: 20px;margin-top: 50vh; margin-left: 90vh; border:solid transparent}
+
+.Ticket .card .Gen{width:48%;height:40px; margin-top: 5vh;}
+/* **********************SELECT YOUR CLASS****************************** */
